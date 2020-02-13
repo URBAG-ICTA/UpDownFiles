@@ -20,7 +20,27 @@ ud.ssh_user = ""
 ud.ssh_password = ""
 
 ud.openConnection()
-'''
+```
+
+## Upload Files
+Create a python list with all the files you want to download from your remote server, and a list with the corresponding names you want them to get on yout local computer.
+```
+localFiles = ["./uploadTest1.txt", "./uploadTest2.txt"]
+remoteFiles = ["~/uploadTest1.txt", "~/uploadTest2.txt"]
+```
+And finally upload the files
+```
+ud.uploadFiles(localFiles, remoteFiles)
+```
+
+## Download Files
+Create a python list wih all the files you want to upload from your local computer, an a list with the corresponding names you want them to have on the remte server
+```
+remoteFiles = ["~/uploadTest1.txt", "~/uploadTest2.txt"]
+localFiles = ["./NEW_uploadTest1.txt", "./NEW_uploadTest2.txt"]
+
+ud.downloadFiles(remoteFiles, localFiles)
+```
 
 
 
