@@ -4,6 +4,16 @@ This project provides a python class that aims to help downloading and uploading
 
 ## Usage example
 
+Install the package paramiko
+
+```
+conda install -c anaconda paramiko
+```
+and the package scp
+```
+conda install -c remram scp
+```
+
 Clone the repository:
 ```
 git clone https://github.com/URBAG-ICTA/UpDownFiles.git
