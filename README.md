@@ -10,7 +10,7 @@ from UpDownFiles import UpDownFiles as UD
 ```
 
 Create an object UPDownFiles
-set up the connection parameters host, user, password and port
+set up the connection parameters *host*, *user*, *password* and *port*
 open the ssh caonnection.
 ```
 ud = UD()
@@ -18,6 +18,7 @@ ud = UD()
 ud.ssh_host = ""
 ud.ssh_user = ""
 ud.ssh_password = ""
+ud.ssh_port = 22
 
 ud.openConnection()
 ```
