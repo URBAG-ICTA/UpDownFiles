@@ -6,7 +6,7 @@ This project provides a python class that aims to help downloading and uploading
 
 Clone the repository:
 ```
-https://github.com/URBAG-ICTA/UpDownFiles.git
+git clone https://github.com/URBAG-ICTA/UpDownFiles.git
 ```
 
 import the library
