@@ -4,6 +4,11 @@ This project provides a python class that aims to help downloading and uploading
 
 ## Usage example
 
+Clone the repository:
+```
+https://github.com/URBAG-ICTA/UpDownFiles.git
+```
+
 import the library
 ```
 from UpDownFiles import UpDownFiles as UD
